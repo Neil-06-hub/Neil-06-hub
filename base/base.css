@@ -1,0 +1,127 @@
+.logo {
+    height: 100px;
+    margin: 12px 0;
+}
+
+.search {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 0;
+    position: relative;
+}
+
+.search-input {
+    background-color: #ffffff;
+    border: 3px solid #0bafe5;
+}
+
+.search-icon {
+    background-color: #0bafe5;
+    color: #ffffff;
+    border: 3px solid #0bafe5;
+   
+}
+
+.search-icon:hover{
+     cursor: pointer;
+     opacity: 0.8;
+}
+.search-input:focus {
+    border-color: #0bafe5;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.25);
+
+}
+
+
+/* History */
+
+
+.search-input:focus ~ .search-history{
+    display: block;
+}
+
+.search-history {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border: 3px solid #fef6f6;
+    border-radius: 3px;
+    box-shadow: 0 1px 5px rgba(0, 123, 255, 0.25);
+    padding: 0;
+    display: none;
+}
+
+.search-history h3 {
+    color: #888;
+    font-size: 14px;
+    text-align: left;
+    padding: 8px 12px;
+}
+
+.list-history {
+    list-style-type: none;
+    text-align: left;
+    padding: 0px ;
+    margin: 0px;
+
+}
+
+.list-history:hover {
+    cursor: pointer;
+
+}
+
+.list-his {
+    padding: 0px 8px 8px 8px;
+}
+
+.list-his a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding-left: 4px;
+}
+
+.list-his:hover {
+    box-shadow: 0 1px 5px rgba(0, 123, 255, 0.25);
+}
+
+
+
+
+.user {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.user_icon {
+    color: #0bafe5;
+    font-size: 22px;
+}
+.user_icon:hover{
+    opacity: 0.5;
+}
+
+
+
+
+
+
+/* Footer */
+.logo-footer{
+    height: 100px;
+}
+
+.foot-list_desc{
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    margin: 0 80px;
+}
+.foot-icon{
+    font-size: 30px;
+}

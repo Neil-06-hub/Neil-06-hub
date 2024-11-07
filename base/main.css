@@ -1,0 +1,18 @@
+.header{
+    display: block;
+    width: 100%;
+    background-color: #D8F1F9;
+}
+
+
+.footer{
+    display: block;
+    width: 100%;
+    padding: 40px;
+    background-color: #D8F1F9;
+    
+}
+
+.letter{
+    color: #2D4F80;
+}
