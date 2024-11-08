@@ -1,9 +1,13 @@
 
-
+:root{
+    --back-color:#D8F1F9;
+    --text-color:#234575;
+    --primary-color:#0bafe5;
+}
 .header{
     display: block;
     width: 100%;
-    background-color: #D8F1F9;
+    background-color: var(--back-color);
    
 }
 
@@ -12,16 +16,16 @@
     display: block;
     width: 100%;
     padding: 40px;
-    background-color: #D8F1F9;
+    background-color: var(--back-color);
     
 }
 
 .letter{
-    color: #234575;
+    color: var(--text-color);
 }
 
 .contain-header{
-    background-color: #D8F1F9;
+    background-color: var(--back-color);
     margin: 60px auto;
     padding: 20px 0;
     border-radius: 50px;
