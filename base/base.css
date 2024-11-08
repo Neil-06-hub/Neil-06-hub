@@ -19,13 +19,14 @@
     background-color: #0bafe5;
     color: #ffffff;
     border: 3px solid #0bafe5;
-   
+
 }
 
-.search-icon:hover{
-     cursor: pointer;
-     opacity: 0.8;
+.search-icon:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }
+
 .search-input:focus {
     border-color: #0bafe5;
     box-shadow: 0 0 10px rgba(0, 123, 255, 0.25);
@@ -36,11 +37,12 @@
 /* History */
 
 
-.search-input:focus ~ .search-history{
+.search-input:focus~.search-history {
     display: block;
 }
 
 .search-history {
+    z-index: 1;
     position: absolute;
     top: 45px;
     left: 0;
@@ -51,6 +53,7 @@
     box-shadow: 0 1px 5px rgba(0, 123, 255, 0.25);
     padding: 0;
     display: none;
+
 }
 
 .search-history h3 {
@@ -63,7 +66,7 @@
 .list-history {
     list-style-type: none;
     text-align: left;
-    padding: 0px ;
+    padding: 0px;
     margin: 0px;
 
 }
@@ -102,7 +105,8 @@
     color: #0bafe5;
     font-size: 22px;
 }
-.user_icon:hover{
+
+.user_icon:hover {
     opacity: 0.5;
 }
 
@@ -112,19 +116,76 @@
 
 
 /* Footer */
-.logo-footer{
+.logo-footer {
     height: 100px;
 }
 
-.foot-list_desc{
+.foot-list_desc {
     list-style: none;
     padding: 0;
     font-size: 14px;
     margin: 0 80px;
 }
-.foot-icon{
+
+.foot-icon {
     font-size: 30px;
 }
-.list-link{
+
+.list-link {
     margin-bottom: 15px;
+}
+
+
+/* Contain */
+
+.contain-navbar {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contain-navbar:hover {
+    color: #0bafe5;
+
+}
+
+.dropdown-list {
+    padding-right: 100px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.dropdown-list:hover {
+    color: #0bafe5;
+    box-shadow: 0 1px 5px rgba(0, 123, 255, 0.25);
+}
+
+.dropdown-cur {
+    position: relative;
+}
+
+.cur-hover:hover .dropdown-cur-list{
+    display: block;
+}
+.dropdown-cur-list {
+    display: none;
+    position: absolute;
+    right: -207px;
+    top: 0px;
+    padding: 0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    list-style: none;
+    
+}
+
+.cur-list {
+    padding: 8px 8px;
+
+}
+
+.cur-list a {
+    text-decoration: none;
+    color: #234575;
+     
 }
