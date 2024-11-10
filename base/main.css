@@ -25,9 +25,6 @@
 }
 
 
-
-
-
 /* Contain */
 .contain{
     background-color: #f7f7f7;
@@ -45,4 +42,16 @@
     padding: 20px 0;
     border-radius: 50px;
    
+}
+
+
+/* END Contain */
+
+
+/* BLOG */
+.blog-item{
+    background-color: var(--back-color);
+    margin: 30px auto;
+    padding: 20px 0;
+    border-radius: 40px;
 }
