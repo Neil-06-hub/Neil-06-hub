@@ -24,6 +24,14 @@
     color: var(--text-color);
 }
 
+
+
+
+
+/* Contain */
+.contain{
+    background-color: #f7f7f7;
+}
 .contain-header{
     background-color: var(--back-color);
     margin: 60px auto;

@@ -230,10 +230,14 @@
 /* Block 2 */
 
 .carousel-img {
-    width: 80%;              /* Đảm bảo ảnh luôn chiếm toàn bộ chiều rộng */
-    height: 400px;            /* Đặt chiều cao cố định cho ảnh */
-    object-fit: cover;        /* Cắt ảnh để giữ tỷ lệ mà không bị méo */
-    object-position: center;  /* Căn giữa ảnh trong khung */
+    width: 80%;
+    /* Đảm bảo ảnh luôn chiếm toàn bộ chiều rộng */
+    height: 400px;
+    /* Đặt chiều cao cố định cho ảnh */
+    object-fit: cover;
+    /* Cắt ảnh để giữ tỷ lệ mà không bị méo */
+    object-position: center;
+    /* Căn giữa ảnh trong khung */
     border-radius: 20px;
 }
 
@@ -241,39 +245,105 @@
 
 
 /* Block 3 */
-.block3-link3{
+.block3-link3 {
     text-decoration: none;
     color: var(--text-color);
+    font-weight: 500;
     background-color: var(--back-color);
     padding: 6px 8px;
     border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 123, 255, 0.25);
+    
 }
-.block3-link3 i{
-    margin: 10px 2px 10px 10px;
+.block3-link3:hover{
+    color: var(--primary-color);
+    box-shadow: 0 6px 16px rgba(0, 123, 255, 0.25);
+}
+.block3-link3 i {
+    margin: 10px 2px 10px 8px;
     font-size: 14px;
+    
 }
-/* block3 - sản phẩm */
-.product{
-    margin: 12px 0;
+
+/* BLOCK3 - sản phẩm */
+.product {
+    margin: 12px -12px;
 }
-.product-item{
-    background-color: var(--back-color);
+
+.product-item {
+
     padding: 12px;
     border-radius: 12px;
-
-   
+    margin: 0 0px 0 0px;
+    text-decoration: none;
+    /* margin: 12px; */
 }
-.item_img{
+
+.item {
+    background-color: var(--back-color);
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 123, 255, 0.25);
+    transition: transform linear 0.1s;
+    will-change: transform;
+}
+
+.item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 123, 255, 0.25);
+}
+
+.item_img {
     padding-top: 100%;
     background-repeat: none;
     background-position: center;
     background-size: contain;
     border: 2px solid var(--primary-color);
     border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+
 }
-.item_price{
+
+
+.item_img:hover {
+    transform: scale(1.1);
+    /* Phóng to ảnh lên 10% */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.5s ease-in-out;
+
+}
+
+
+.item_price {
     margin: 6px 0;
+    font-weight: 700;
+    color: var(--text-color);
 }
-.item_desc{
+
+.item_price:hover {
+    color: var(--primary-color);
+}
+
+.item_desc {
     margin: 6px 0;
+    color: var(--text-color);
+    line-height: 22px;
+    height: 44px;
+    font-size: 14px;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /*hướng của 3 chấm  */
+    -webkit-line-clamp: 2;
 }
+
+.item_desc:hover {
+    color: var(--primary-color);
+}
+
+
+/* END Block3 - SẢN PHẨM */
+
+
+/* END BLOCK3 */
