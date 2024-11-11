@@ -280,6 +280,8 @@
 }
 
 .item {
+    display: block;
+    text-decoration: none;
     background-color: var(--back-color);
     padding: 12px;
     border-radius: 10px;
@@ -300,7 +302,7 @@
     background-size: contain;
     border: 2px solid var(--primary-color);
     border-radius: 10px;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.2s ease-in-out;
 
 }
 
@@ -309,7 +311,7 @@
     transform: scale(1.1);
     /* Phóng to ảnh lên 10% */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: box-shadow 0.5s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
 
 }
 
@@ -354,8 +356,33 @@
 
 
 /* BLOG */
-.blog_img{
-  
+.blog-item{
+    margin: 20px 0;
+    background-color: var(--back-color);
+    padding: 20px 0;
+    border-radius: 40px;
+}
+.blog-silde{
+    bottom: -40px;
 }
 
+.blog-content{
+    font-size: 24px;
+    color: var(--text-color);
+    font-weight: 400;
+    font-style: italic;
+    margin: 12px 100px;
+}
+
+.blog-info h3{
+    color: var(--text-color);
+   
+}
+.info_img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
 /* END BLOG */
