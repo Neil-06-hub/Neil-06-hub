@@ -56,6 +56,7 @@
 
 }
 
+
 .search-history h3 {
     color: #888;
     font-size: 14px;
@@ -63,12 +64,13 @@
     padding: 8px 12px;
 }
 
+
 .list-history {
     list-style-type: none;
     text-align: left;
     padding: 0px;
     margin: 0px;
-
+    
 }
 
 .list-history:hover {
@@ -88,7 +90,7 @@
 }
 
 .list-his:hover {
-    box-shadow: 0 1px 5px rgba(0, 123, 255, 0.25);
+    box-shadow: 0 0px 2px rgba(0, 123, 255, 0.25);
 }
 
 
@@ -107,9 +109,28 @@
 }
 
 .user_icon:hover {
+    cursor: pointer;
+}
+
+
+.list_icon:hover{
     opacity: 0.5;
 }
 
+.user-hover{
+    right: -20px;
+    inset: none;
+}
+
+.user-list{
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.user-list:hover{
+    color: var(--primary-color);
+    box-shadow: 0 1px 5px rgba(0, 123, 255, 0.25);
+}
 
 
 
@@ -144,6 +165,7 @@
     font-size: 20px;
     font-weight: bold;
 }
+
 
 .contain-navbar:hover {
     color: var(--primary-color);
