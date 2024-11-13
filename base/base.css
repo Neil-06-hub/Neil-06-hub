@@ -151,7 +151,9 @@
 .foot-icon {
     font-size: 30px;
 }
-
+.foot-icon a{
+    text-decoration: none;
+}
 .list-link {
     margin-bottom: 15px;
 }

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mon 2</title>
+    <title>Mon</title>
 
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -12,210 +12,271 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/css_index2.css/indexcss.css">
-
-
+    <link rel="stylesheet" href="/base/main.css">
+    <link rel="stylesheet" href="/base/base.css">
+    <link rel="stylesheet" href="/base/responsive.css">
 
 </head>
 
 <body>
 
     <!-- Header -->
-    <header class="header">
-        <div class="top-bar py-md-2">
-            <marquee class="d-md-block d-none">
-                <p>Chào mừng mọi người đến với Lobeo Art! Chúc bạn một ngày tràn đầy cảm hứng!</p>
-            </marquee>
-            <div class="d-block d-md-none">
-                <p>150 Hoàng Văn Thái, Hà Nội - Giao hàng toàn quốc</p>
-            </div>
-        </div>
+    <div class="header">
         <div class="container">
-            <!-- mobile -->
-            <div class="header-mobile d-md-none">
-                <div class="mobile-header-top d-flex align-items-center justify-content-between">
-                    <div class="left-moblie d-flex align-items-center justify-content-between">
-                        <div class="back-top-icon d-md-none" id="backPrev">
-                            <i class="fa-regular fa-chevron-left"></i>
-                        </div>
-                        <div class="mobile-nav mobile-nav-icon">
-                            <i class="fa-solid fa-list-ul"></i>
-                        </div>
-    
-                        <div class="logo-mobile">
-                            <a href="/">
-                                <img class="logo-img"
-                                     src="https://pos.nvncdn.com/6dc534-15668/store/20170429_h0upqcBHebFiFiHuocagXHfs.png">
-                            </a>
-                        </div>
-                    </div>
-    
-                    <div class="right-mobile">
-                        <ul class="mobile-list-icon">
-                            <li class="mobile-item position-relative">
-                                                                <span class="mobile-user mobile-icon user-icon">
-                                        <i class="fa-regular fa-user"></i>
-                                    </span>
-                                    <div class="user-account-main box-auth">
-                                        <div class="box-auth-wraper">
-    <!--                                        <p class="box-auth-head">welcome to Lobeo Art</p>-->
-    <!--                                        <div class="box-auth-redirect">-->
-    <!--                                            <a href="/user/signup" class="register-button button-auth">Đăng ký</a>-->
-    <!--                                            <a href="/user/signin" class="login-button button-auth">Đăng nhập</a>-->
-    <!--                                        </div>-->
-                                            <div class="box-auth-social">
-                                                <a href="/user/signin" class="d-block py-2">
-                                                    <i class="fa-solid fa-right-to-bracket"></i>
-                                                    Đăng nhập
-                                                </a>
-                                                <a href="/user/signup" class="d-block py-2">
-                                                    <i class="fa fa-registered" aria-hidden="true"></i>
-                                                    Đăng ký
-                                                </a>
-                                                <a href="/user/fbsignin?redirect=/" class="d-block py-2">
-                                                    <i class="fa-brands fa-facebook-f"></i>
-                                                    Đăng nhập bằng Facebook
-                                                </a>
-                                                <a href="/user/ggsignin" class="d-block py-2">
-                                                    <i class="fa-brands fa-google-plus-g"></i>
-                                                    Đăng nhập bằng google
-                                                </a>
-                                            </div>
-                                        </div>
+            <div class="row align-items-center hide ">
+                <div class="col-xl-3 col-lg-3">
+                    <img src="/img/Logo web.png" alt="" class="logo">
+                </div>
+                <div class="col-xl-6 col-lg-6  text-center">
+                    <div class="row">
+                        <div class="col-xl-12 input-group text-center search">
+                            <input type="text" class="form-control search-input"
+                                placeholder="Tìm kiếm sản phẩm bạn mong muốn ..." aria-describedby="search-input">
+                            <div class=" container-fluid search-history">
+                                <div class="row">
+                                    <div class="col-xl-12">
+                                        <h3>Lịch sử tìm kiếm</h3>
                                     </div>
-                                                        </li>
-                            <li class="mobile-item position-relative">
-                                <span class="mobile-cart-icon mobile-icon cart-icon">
-                                    <i class="fa-regular fa-basket-shopping"></i>
-                                </span>
-                                <span class="number-box cart-total" id="cart-count">0</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="mobile-header-bottom">
-                    <form id="mobile-search-form" class="position-relative" action="/search">
-                        <input type="text" class="" name="q" placeholder="Tìm nhanh sản phẩm bạn mong muốn ..."
-                               autocomplete="off">
-                        <button type="submit" class="tp_button">
-                            <i class="fa-regular fa-magnifying-glass"></i>
-                        </button>
-                    </form>
-                </div>
-            </div>
-    
-            <!-- desk -->
-            <div class="main-header align-items-center justify-content-between d-none d-md-flex">
-                <div class="header-logo">
-                    <a href="/">
-                        <img class="logo-img"
-                             src="https://pos.nvncdn.com/6dc534-15668/store/20170429_h0upqcBHebFiFiHuocagXHfs.png">
-                    </a>
-                </div>
-    
-                <div class="header-search d-flex align-items-center justify-content-between">
-                    <div class="header-cate">
-                        <p class="cate-text">
-                            <i class="fa-solid fa-list-ul"></i>
-                            <span class="ml-md-2">Danh Mục</span>
-                        </p>
-                        <div class="header-cate-box">
-                            <div class="box-wrap">
-                                <h5>
-                                    <i class="fa-solid fa-list-ul"></i>
-                                    Danh mục sản phẩm
-                                </h5>
-                                <div class="box-content">
-                                    <ul class="list-menu">
-                                        <li class="tp_menu_item menu-item"><a class="tp_menu_item menu-lv1 item-link d-block" href="/mau-ve-pc133233.html" title="MÀU VẼ"><i class="fa-solid fa-caret-right" aria-hidden="true"></i><span class="item-logo"><img alt="MÀU VẼ" src="https://pos.nvncdn.com/6dc534-15668/pc/20230926_53TKRh8w.png"></span> <span class="d-inline item-text">MÀU VẼ</span></a><ul class="menu-child"><li class="tp_menu_item child-item"><a href="/mau-nuoc-pc428210.html" class="child-link">Màu Nước</a></li><li class="tp_menu_item child-item"><a href="/mau-da-mau-marker-pc428211.html" class="child-link">Màu Dạ, Màu Marker</a></li><li class="tp_menu_item child-item"><a href="/mau-chi-pc428212.html" class="child-link">Màu Chì</a></li><li class="tp_menu_item child-item"><a href="/mau-poster-mau-gouache-pc428213.html" class="child-link">Màu Poster, Màu Gouache</a></li><li class="tp_menu_item child-item"><a href="/acrylic-son-dau-pc428214.html" class="child-link">Acrylic, Sơn Dầu</a></li><li class="tp_menu_item child-item"><a href="/phan-tien-phan-dau-pc428261.html" class="child-link">Phấn Tiên, Phấn Dầu</a></li><li class="tp_menu_item child-item"><a href="/but-son-acrylic-marker-pc565201.html" class="child-link">Bút Sơn, Acrylic Marker</a></li><li class="tp_menu_item child-item"><a href="/mau-muc-pc428312.html" class="child-link">Màu Mực</a></li><li class="tp_menu_item child-item"><a href="/muc-but-sat-but-may-pc428510.html" class="child-link">Mực Bút Sắt, Bút Máy</a></li></ul></li><li class="tp_menu_item menu-item"><a class="tp_menu_item menu-lv1 item-link d-block" href="/giay-ve-pc137181.html" title="GIẤY VẼ"><i class="fa-solid fa-caret-right" aria-hidden="true"></i><span class="item-logo"><img alt="GIẤY VẼ" src="https://pos.nvncdn.com/6dc534-15668/pc/20230926_VeCsgBSC.png"></span> <span class="d-inline item-text">GIẤY VẼ</span></a><ul class="menu-child"><li class="tp_menu_item child-item"><a href="/giay-ve-so-ve-pc428285.html" class="child-link">Giấy Vẽ, Sổ Vẽ</a></li><li class="tp_menu_item child-item"><a href="/bang-vai-canvas-pc428286.html" class="child-link">Bảng Vải, Canvas</a></li><li class="tp_menu_item child-item"><a href="/tranh-to-mau-pc428209.html" class="child-link">Tranh tô màu</a></li></ul></li><li class="tp_menu_item menu-item"><a class="tp_menu_item menu-lv1 item-link d-block" href="/but-ve-co-ve-pc137182.html" title="BÚT VẼ, CỌ VẼ"><i class="fa-solid fa-caret-right" aria-hidden="true"></i><span class="item-logo"><img alt="BÚT VẼ, CỌ VẼ" src="https://pos.nvncdn.com/6dc534-15668/pc/20230926_MLfRjKmS.png"></span> <span class="d-inline item-text">BÚT VẼ, CỌ VẼ</span></a><ul class="menu-child"><li class="tp_menu_item child-item"><a href="/but-khac-pc537627.html" class="child-link">Bút khác</a></li><li class="tp_menu_item child-item"><a href="/but-di-net-but-gel-pc428293.html" class="child-link">Bút Đi Nét, Bút Gel</a></li><li class="tp_menu_item child-item"><a href="/co-ve-pc428294.html" class="child-link">Cọ Vẽ</a></li><li class="tp_menu_item child-item"><a href="/but-sat-pc428295.html" class="child-link">Bút Sắt</a></li><li class="tp_menu_item child-item"><a href="/but-muc-long-pc432951.html" class="child-link">Bút Mực Lông</a></li></ul></li><li class="tp_menu_item menu-item"><a class="tp_menu_item menu-lv1 item-link d-block" href="/phac-thao-pc137183.html" title="PHÁC THẢO"><i class="fa-solid fa-caret-right" aria-hidden="true"></i><span class="item-logo"><img alt="PHÁC THẢO" src="https://pos.nvncdn.com/6dc534-15668/pc/20230926_3KrpoyBg.png"></span> <span class="d-inline item-text">PHÁC THẢO</span></a><ul class="menu-child"><li class="tp_menu_item child-item"><a href="/but-chi-than-chi-pc428223.html" class="child-link">Bút Chì, Than Chì</a></li><li class="tp_menu_item child-item"><a href="/ngoi-chi-pc428224.html" class="child-link">Ngòi chì</a></li><li class="tp_menu_item child-item"><a href="/tay-pc428225.html" class="child-link">Tẩy</a></li><li class="tp_menu_item child-item"><a href="/thuoc-pc428273.html" class="child-link">Thước</a></li><li class="tp_menu_item child-item"><a href="/phac-thao-khac-pc428274.html" class="child-link">Phác thảo - Khác</a></li></ul></li><li class="tp_menu_item menu-item"><a class="tp_menu_item menu-lv1 item-link d-block" href="/thu-cong-diy-pc137184.html" title="THỦ CÔNG (DIY)"><i class="fa-solid fa-caret-right" aria-hidden="true"></i><span class="item-logo"><img alt="THỦ CÔNG (DIY)" src="https://pos.nvncdn.com/6dc534-15668/pc/20230926_rIufmUZb.png"></span> <span class="d-inline item-text">THỦ CÔNG (DIY)</span></a><ul class="menu-child"><li class="tp_menu_item child-item"><a href="/dung-cu-cat-giay-pc428313.html" class="child-link">Dụng Cụ Cắt Giấy </a></li><li class="tp_menu_item child-item"><a href="/khac-pc428314.html" class="child-link">Khác </a></li></ul></li><li class="tp_menu_item menu-item"><a class="tp_menu_item menu-lv1 item-link d-block" href="/dung-cu-bo-tro-pc137186.html" title="DỤNG CỤ BỔ TRỢ"><i class="fa-solid fa-caret-right" aria-hidden="true"></i><span class="item-logo"><img alt="DỤNG CỤ BỔ TRỢ" src="https://pos.nvncdn.com/6dc534-15668/pc/20230926_X5sTIHIa.png"></span> <span class="d-inline item-text">DỤNG CỤ BỔ TRỢ</span></a><ul class="menu-child"><li class="tp_menu_item child-item"><a href="/dung-tranh-pc565200.html" class="child-link">Đựng Tranh </a></li><li class="tp_menu_item child-item"><a href="/khay-pha-mau-chiet-mau-pc428296.html" class="child-link">Khay Pha Màu, Chiết Màu </a></li><li class="tp_menu_item child-item"><a href="/ve-sinh-co-ve-pc428305.html" class="child-link">Vệ Sinh Cọ Vẽ </a></li><li class="tp_menu_item child-item"><a href="/gia-ve-bang-ke-tranh-pc428306.html" class="child-link">Giá Vẽ, Bảng Kê Tranh</a></li><li class="tp_menu_item child-item"><a href="/gac-co-pc428511.html" class="child-link">Gác Cọ</a></li><li class="tp_menu_item child-item"><a href="/bang-dinh-co-dinh-tranh-keo-chan-pc428308.html" class="child-link">Băng Dính Cố Định Tranh, Keo Chặn</a></li><li class="tp_menu_item child-item"><a href="/bao-quan-tranh-dung-moi-pc428310.html" class="child-link">Bảo Quản Tranh, Dung Môi</a></li><li class="tp_menu_item child-item"><a href="/mo-hinh-ve-tranh-pc428315.html" class="child-link">Mô Hình Vẽ Tranh</a></li><li class="tp_menu_item child-item"><a href="/do-dien-tu-pc137187.html" class="child-link">Đồ điện tử</a></li><li class="tp_menu_item child-item"><a href="/dung-cu-khac-pc428513.html" class="child-link">Dụng Cụ Khác</a></li><li class="tp_menu_item child-item"><a href="/dung-but-pc428509.html" class="child-link">Đựng Bút</a></li></ul></li><li class="tp_menu_item menu-item"><a class="tp_menu_item menu-lv1 item-link d-block" href="/tui-vai-canvas-pc525865.html" title="TÚI VẢI CANVAS"><i class="fa-solid fa-caret-right" aria-hidden="true"></i><span class="item-logo"><img alt="TÚI VẢI CANVAS" src="https://pos.nvncdn.com/6dc534-15668/pc/20230926_fd8EblvM.png"></span> <span class="d-inline item-text">TÚI VẢI CANVAS</span></a><ul class="menu-child"><li class="tp_menu_item child-item"><a href="/bst-lobeo-studio-pc565183.html" class="child-link">BST Lobeo Studio</a></li><li class="tp_menu_item child-item"><a href="/mau-tong-hop-pc565182.html" class="child-link">Mẫu tổng hợp</a></li><li class="tp_menu_item child-item"><a href="/bst-cung-hoang-dao-pc542625.html" class="child-link">BST Cung Hoàng Đạo</a></li><li class="tp_menu_item child-item"><a href="/tui-vai-den-pc565197.html" class="child-link">Túi Vải Đen</a></li></ul></li><li class="tp_menu_item menu-item"><a class="tp_menu_item menu-lv1 item-link d-block" href="/gau-handmade-pc565070.html" title="GẤU HANDMADE"><span class="item-logo"><img alt="GẤU HANDMADE" src="https://pos.nvncdn.com/6dc534-15668/pc/20240804_CDiJjbjX.gif"></span> <span class="d-inline item-text">GẤU HANDMADE</span></a></li><li class="tp_menu_item menu-item"><a class="tp_menu_item menu-lv1 item-link d-block" href="/van-phong-pham-pc428208.html" title="VĂN PHÒNG PHẨM"><i class="fa-solid fa-caret-right" aria-hidden="true"></i><span class="item-logo"><img alt="VĂN PHÒNG PHẨM" src="https://pos.nvncdn.com/6dc534-15668/pc/20230926_zbUzNt2b.png"></span> <span class="d-inline item-text">VĂN PHÒNG PHẨM</span></a><ul class="menu-child"><li class="tp_menu_item child-item"><a href="/so-vo-viet-pc542780.html" class="child-link">Sổ, Vở Viết</a></li><li class="tp_menu_item child-item"><a href="/dung-cu-hoc-tap-pc542781.html" class="child-link">Dụng Cụ Học Tập</a></li><li class="tp_menu_item child-item"><a href="/washi-tape-sticker-tranh-in-pc428316.html" class="child-link">Washi Tape, Sticker, Tranh in</a></li><li class="tp_menu_item child-item"><a href="/do-luu-tru-pc542782.html" class="child-link">Đồ Lưu Trữ</a></li><li class="tp_menu_item child-item"><a href="/do-trang-tri-decor-pc542783.html" class="child-link">Đồ Trang Trí, Decor</a></li><li class="tp_menu_item child-item"><a href="/san-pham-khac-pc542622.html" class="child-link">Sản Phẩm Khác</a></li></ul></li>                                </ul>
+                                    <div class="col-xl-12">
+                                        <ul class="list-history">
+                                            <li class="list-his">
+                                                <a href="#">Màu nước</a>
+                                            </li>
+                                            <li class="list-his">
+                                                <a href="#">Bút vẽ</a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
+                            <span class="input-group-text search-icon" id="search-input"><i
+                                    class="fa-solid fa-magnifying-glass"></i></span>
                         </div>
                     </div>
-                    <form id="search-form" action="/search">
-                        <input type="text" class="" name="q" placeholder="Tìm nhanh sản phẩm bạn mong muốn ..."
-                               autocomplete="off">
-                        <button type="submit" class="tp_button">
-                            <i class="fa-regular fa-magnifying-glass"></i>
-                        </button>
-                    </form>
                 </div>
-    
-                <div class="header-right">
-                    <ul class="list-icon d-flex align-items-center justify-content-between">
-                        <li class="icon-item position-relative">
-                                                        <span class="account-icon icon-link user-icon">
-                                    <i class="fa-regular fa-user"></i>
-                                </span>
-                                <div class="user-account-main box-auth">
-                                    <div class="box-auth-wraper">
-    <!--                                    <p class="box-auth-head">welcome to Lobeo Art</p>-->
-    <!--                                    <div class="box-auth-redirect">-->
-    <!--                                        <a href="/user/signup" class="register-button button-auth">Đăng ký</a>-->
-    <!--                                        <a href="/user/signin" class="login-button button-auth">Đăng nhập</a>-->
-    <!--                                    </div>-->
-                                        <div class="box-auth-social">
-                                            <a href="/user/signin" class="d-block py-2">
-                                                <i class="fa-solid fa-right-to-bracket"></i>
-                                                Đăng nhập
-                                            </a>
-                                            <a href="/user/signup" class="d-block py-2">
-                                                <i class="fa fa-registered" aria-hidden="true"></i>
-                                                Đăng ký
-                                            </a>
-                                            <a href="/user/fbsignin?redirect=/" class="d-block py-2">
-                                                <i class="fa-brands fa-facebook-f"></i>
-                                                Đăng nhập bằng Facebook
-                                            </a>
-                                            <a href="/user/ggsignin" class="d-block py-2">
-                                                <i class="fa-brands fa-google-plus-g"></i>
-                                                Đăng nhập bằng google
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                                </li>
-    
-                        <li class="icon-item item-rel">
-                            <span class="wish-icon icon-link">
-                                <i class="fa-regular fa-heart"></i>
-                            </span>
-                            <span class="number-box">0</span>
-                        </li>
-                        <li class="icon-item item-rel">
-                            <span class="cart-icon icon-link">
-                                <i class="fa-regular fa-basket-shopping"></i>
-                            </span>
-                            <span class="number-box cart-total" id="cart-count">0</span>
-                        </li>
-                    </ul>
+                <div class="col-xl-3 col-lg-3 user">
+                    <a class="user_icon" href="#">
+                        <i class="fa-regular fa-bell list_icon"></i>
+                    </a>
+                    <a class="user_icon" href="#">
+                        <i class="fa-solid fa-bag-shopping  list_icon"></i>
+                    </a>
+                    <div class="user_icon" href="#">
+                        <!-- <i class="fa-regular fa-user"></i> -->
+                        <div class="dropdown ">
+                            <div class="dropdown-toggle contain-navbar list_icon" href="#" data-bs-toggle="dropdown"
+                                style="color: var(--primary-color);">
+                                <i class="fa-regular fa-user "></i>
+                            </div>
+                            <ul class="dropdown-menu user-hover">
+                                <li>
+                                    <a class="dropdown-item user-list letter d-block" href="#">
+                                        Tài Khoản
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item user-list letter d-block" href="#">Đổi Mật Khẩu</a></li>
+                                <li><a class="dropdown-item user-list letter d-block" href="#">Đăng Xuất</a></li>
+                                <!-- <li><a class="dropdown-item dropdown-list letter" href="#">Dụng cụ hỗ trợ</a></li> -->
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <!-- Header_two -->
+            <div class="row  header_two">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <!-- SERACH -->
+                        <label class=" user_icon" for="search-checkbox">
+                            <i class="fa-solid fa-magnifying-glass header_two-icon"></i>
+                        </label>
+
+                        <input type="checkbox" hidden id="search-checkbox" class="search_checkbox">
+
+                        <div class="container input-group text-center search">
+                            <input type="text" class="form-control search-input"
+                                placeholder="Tìm kiếm sản phẩm bạn mong muốn ..." aria-describedby="search-input">
+                            <div class=" container-fluid search-history">
+                                <div class="row">
+                                    <div class="col-xl-12">
+                                        <h3>Lịch sử tìm kiếm</h3>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <ul class="list-history">
+                                            <li class="list-his">
+                                                <a href="#">Màu nước</a>
+                                            </li>
+                                            <li class="list-his">
+                                                <a href="#">Bút vẽ</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="input-group-text search-icon" id="search-input"><i
+                                    class="fa-solid fa-magnifying-glass"></i></span>
+                        </div>
+
+                        <!-- END SEARCH -->
+                        <div>
+                            <img src="/img/Logo web.png" alt="" class="header_two-logo">
+                        </div>
+                        <button class="navbar-toggler letter" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                            aria-label="Toggle navigation">
+                            <div>
+                                <i class="fa-solid fa-bars header_two-icon"></i>
+                            </div>
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                            aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h3 class="offcanvas-title letter" id="offcanvasNavbarLabel">ART DEPOT</h3>
+                                <button type="button" class="btn-close header_two-btn" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link  header_two-nav" href="#" style="font-weight: 600;">TÀI KHOẢN
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link  header_two-nav" href="#" style="font-weight: 600;">ĐƠN
+                                            HÀNG</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link  header_two-nav" href="#" style="font-weight: 600;">THÔNG
+                                            BÁO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link  header_two-nav" href="#" style="font-weight: 600;">BLOG</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link  header_two-nav" href="#" style="font-weight: 600;">NGÔN
+                                            NGỮ</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a style="font-weight: 600;" class="nav-link dropdown-toggle  header_two-nav"
+                                            href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            DANH MỤC SẢN PHẨM
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item  header_two-nav" href="#">Màu vẽ</a></li>
+                                            <li><a class="dropdown-item  header_two-nav" href="#">Sổ vẽ, giấy vẽ</a>
+                                            </li>
+                                            <li><a class="dropdown-item  header_two-nav" href="#">Bút vẽ, cọ vẽ</a></li>
+                                            <li><a class="dropdown-item  header_two-nav" href="#">Dụng cụ hỗ trợ</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </nav>
+            </div>
+
+            <!--END  Header_two -->
+
+
         </div>
-    </header>
-    <script defer type="text/javascript" src="https://web.nvnstatic.net/tp/T0437/js/index.js?v=2"></script><div class="home-page">
-
-
-
-
-
-
-
-
+    </div>
     <!--END Header -->
 
 
+
+
+    <!-- Container -->
     <div class="contain">
 
+        <div class="container">
+
+
+            <!--  -->
+            <div class="accordion row" id="accordionExample">
+                <!--  -->
+                <div class="col-xl-4">
+                    <h2 class="">
+                        <div class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Accordion Item #1
+                        </div>
+                    </h2>
+                </div>
+                <!--  -->
+                <div class="col-xl-4">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Accordion Item #2
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                            until the collapse plugin adds the appropriate classes that we use to style each
+                            element. These classes control the overall appearance, as well as the showing and hiding
+                            via CSS transitions. You can modify any of this with custom CSS or overriding our
+                            default variables. It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col-xl-4">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Accordion Item #3
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element.
+                            These classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default
+                            variables. It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+            </div>
+
+            <!--  -->
+
+        </div>
+
+        <div id="collapseOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                the collapse plugin adds the appropriate classes that we use to style each element.
+                These classes control the overall appearance, as well as the showing and hiding via CSS
+                transitions. You can modify any of this with custom CSS or overriding our default
+                variables. It's also worth noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+        </div>
+
+
+
     </div>
- 
+    <!-- END Container -->
+
+
 
 
     <!-- Footer -->
-    <div class="footer">
+    <div class="footer ">
         <div class="container ">
             <div class="row  justify-content-between">
-                <div class="col-xl-4 col-lg-4">
+                <div class="col-xl-4 col-lg-4 col-6">
                     <div class="logo-footer">
                         <img src="/img/Logo web.png" alt="" class="logo-footer">
                     </div>
@@ -236,7 +297,7 @@
 
 
                 </div>
-                <div class="col-xl-4 col-lg-4 ">
+                <div class="col-xl-4 col-lg-4 hide">
 
                     <ul class="foot-list_desc">
                         <li>
@@ -259,15 +320,31 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-xl-4 col-lg-4 text-center">
+                <div class="col-xl-4 col-lg-4 col-6 text-center">
                     <h4 class="letter">KẾT NỐI VỚI CHÚNG MÌNH</h4>
                     <h5class="letter">Email: cskh.ad@gmail.com</h5class=>
-                        <div class="foot-icon letter">
-                            <i class="fa-brands fa-facebook"></i>
-                            <i class="fa-brands fa-square-instagram"></i>
-                            <i class="fa-solid fa-envelope"></i>
-                            <i class="fa-brands fa-youtube"></i>
-                            <i class="fa-solid fa-square-phone"></i>
+                        <div class="foot-icon ">
+                            <a href="#" class="letter">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#" class="letter">
+
+                            </a>
+                            <a href="#" class="letter">
+                                <i class="fa-brands fa-square-instagram"></i>
+                            </a>
+                            <a href="#" class="letter">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                            <a href="#" class="letter">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                            <a href="#" class="letter">
+                                <i class="fa-solid fa-square-phone"></i>
+                            </a>
+
+
+
                         </div>
 
                 </div>
