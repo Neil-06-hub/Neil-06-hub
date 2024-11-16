@@ -24,10 +24,10 @@
     <div class="header">
         <div class="container">
             <div class="row align-items-center hide ">
-                <div class="col-xl-3 col-lg-3">
+                <div class="col-xl-2 col-lg-2 text-center">
                     <img src="/img/Logo web.png" alt="" class="logo">
                 </div>
-                <div class="col-xl-6 col-lg-6  text-center">
+                <div class="col-xl-8 col-lg-8  text-center">
                     <div class="row">
                         <div class="col-xl-12 input-group text-center search">
                             <input type="text" class="form-control search-input"
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-3 user">
+                <div class="col-xl-2 col-lg-2 user">
                     <a class="user_icon" href="#">
                         <i class="fa-regular fa-bell list_icon"></i>
                     </a>
@@ -132,9 +132,9 @@
                         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                             aria-labelledby="offcanvasNavbarLabel">
                             <div class="offcanvas-header">
-                                <h3 class="offcanvas-title letter" id="offcanvasNavbarLabel">ART DEPOT</h3>
-                                <button type="button" class="btn-close header_two-btn" data-bs-dismiss="offcanvas"
-                                    aria-label="Close"></button>
+                                <a href="" class="offcanvas-title letter" id="offcanvasNavbarLabel"  style="text-decoration: none; font-weight: bold; font-size: 22px;">TRANG CHỦ</a>
+                                <!-- <button type="button" class="btn-close header_two-btn" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button> -->
                             </div>
                             <div class="offcanvas-body">
                                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -157,7 +157,11 @@
                                         <a class="nav-link  header_two-nav" href="#" style="font-weight: 600;">NGÔN
                                             NGỮ</a>
                                     </li>
-                                    <li class="nav-item dropdown">
+                                    <li class="nav-item">
+                                        <a class="nav-link  header_two-nav" href="#" style="font-weight: 600;">
+                                            ĐĂNG XUẤT</a>
+                                    </li>
+                                    <!-- <li class="nav-item dropdown">
                                         <a style="font-weight: 600;" class="nav-link dropdown-toggle  header_two-nav"
                                             href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             DANH MỤC SẢN PHẨM
@@ -170,7 +174,7 @@
                                             <li><a class="dropdown-item  header_two-nav" href="#">Dụng cụ hỗ trợ</a>
                                             </li>
                                         </ul>
-                                    </li>
+                                    </li> -->
                                 </ul>
 
                             </div>
@@ -179,6 +183,32 @@
                     </div>
 
                 </nav>
+
+
+                <!--header_sort-bar  -->
+                <ul class="header_sort-bar">
+                    <li class="header_sort-item header_sort-item-active">
+                        <a href="#" class="header_sort-link ">
+                            Bán Chạy
+                        </a>
+                    </li>
+                    <li class="header_sort-item">
+                        <a href="#" class="header_sort-link">
+                            Liên Quan
+                        </a>
+                    </li>
+                    <li class="header_sort-item">
+                        <a href="#" class="header_sort-link">
+                            Mới Nhất
+                        </a>
+                    </li>
+                    <li class="header_sort-item">
+                        <a href="#" class="header_sort-link">
+                            Giá
+                        </a>
+                    </li>
+                </ul>
+
             </div>
 
             <!--END  Header_two -->
@@ -186,9 +216,6 @@
 
         </div>
     </div>
-
-
-
     <!--END Header -->
 
 
@@ -251,7 +278,7 @@
 
 
         <!-- Container - blcok 2 -->
-        <div class="container contain-header2">
+        <div class="container contain-header2 ">
             <div class="row">
                 <div class="col-xl-12 col-md-12 col-12 text-center">
                     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -266,19 +293,19 @@
                                 aria-label="Slide 3"></button>
                         </div>
                         <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="2000">
+                            <div class="carousel-item active" data-bs-interval="3000">
                                 <img src="/img/sp7.jpeg" class="d-block mx-auto carousel-img" alt="...">
 
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
+                            <div class="carousel-item" data-bs-interval="3000">
                                 <img src="/img/sp2.png" class="d-block mx-auto carousel-img" alt="...">
 
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
+                            <div class="carousel-item" data-bs-interval="3000">
                                 <img src="/img/sp3.png" class="d-block mx-auto carousel-img" alt="...">
 
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
+                            <div class="carousel-item" data-bs-interval="3000">
                                 <img src="/img/sp6.jpeg" class="d-block mx-auto carousel-img" alt="...">
 
                             </div>
@@ -299,14 +326,58 @@
         </div>
         <!-- END Container - Block 2 -->
 
+        <!-- List Danh MỤC SẢN PHẨM với respon -->
+        <nav class="container contain_category">
+            <ul class="contain_category-list">
+                <li class="contain_category-item">
+                    <a href="" class="contain_category-link">
+                        Màu Nước , Màu Chì
+                    </a>
+                </li>
+                <li class="contain_category-item">
+                    <a href="" class="contain_category-link">
+                        Màu Dạ, Màu Marker
+                    </a>
+                </li>
+                <li class="contain_category-item">
+                    <a href="" class="contain_category-link">
+                        Giấy Vẽ, Sổ Vẽ
+                    </a>
+                </li>
+                <li class="contain_category-item">
+                    <a href="" class="contain_category-link">
+                        Bảng Vải, Canvas
+                    </a>
+                </li>
+                <li class="contain_category-item">
+                    <a href="" class="contain_category-link">
+                        Bút Đi Nét, Bút Gel
+                    </a>
+                </li>
+                <li class="contain_category-item">
+                    <a href="" class="contain_category-link">
+                        Cọ Vẽ, Bút Sắt
+                    </a>
+                </li>
+                <li class="contain_category-item">
+                    <a href="" class="contain_category-link">
+                        Gấu bông
+                    </a>
+                </li>
 
+
+            </ul>
+
+        </nav>
+
+        <!-- END List Danh MỤC SẢN PHẨM với respon -->
 
         <!-- Block 3 SẢN PHẨM BÁN CHẠY -->
         <div class="container container-block3">
             <!--  -->
             <div class="row align-items-center ">
                 <div class="col-xl-10  col-lg-10 col-8">
-                    <h2 class="letter" style="font-weight: bold;">SẢN PHẨM BÁN CHẠY</h2>
+                    <h3 class="letter" style="font-weight: bold;">SẢN PHẨM BÁN CHẠY</h3>
                 </div>
                 <div class="col-xl-2  col-lg-2  col-4 text-end">
                     <a class="block3-link3 " href="#">
@@ -321,19 +392,19 @@
                 <div class="col-xl-2 col-lg-3 col-4  product-item" href="#">
                     <a class="item" href="#">
                         <div class="item_img"
-                            style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20241003_JpD5e0BEE5.jpeg);">
+                            style="background-image: url(/img/sove_giayve/4\ Sổ\ vẽ\ Canson\ XL\ Aquarelle.jpg);">
                         </div>
                         <h4 class="item_price">50.000đ</h4>
-                        <h6 class="item_desc"> Sổ Lobeo Cream Artwork 160gsm 32 tờ</h6>
+                        <p class="item_desc"> Sổ Lobeo Cream Artwork 160gsm 32 tờ</p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3 col-4 product-item" href="#">
                     <a class="item" href="#">
                         <div class="item_img"
-                            style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20241023_ZSHzDtuMNR.jpeg);">
+                            style="background-image: url(/img/sove_giayve/8\ Sổ\ vẽ\ Faber\ Castell.png);">
                         </div>
                         <h4 class="item_price">120.000đ</h4>
-                        <h6 class="item_desc"> Sổ tô màu trang phục Crush - LobeoxZumeo</h6>
+                        <p class="item_desc"> Sổ tô màu trang phục Crush - LobeoxZumeo</p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
@@ -342,7 +413,7 @@
                             style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20240501_lCAxFB6pQX.jpeg);">
                         </div>
                         <h4 class="item_price">90.000đ</h4>
-                        <h6 class="item_desc"> Túi tote, túi canvas Dark Zodiac</h6>
+                        <p class="item_desc"> Túi tote, túi canvas Dark Zodiac</p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
@@ -351,7 +422,7 @@
                             style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20221001_nph04vslqyjbdT039qHBRkLM.jpg);">
                         </div>
                         <h4 class="item_price">85.000đ</h4>
-                        <h6 class="item_desc"> Túi tote, túi vải canvas Zumeo MS48 Choco Bear</h6>
+                        <p class="item_desc"> Túi tote, túi vải canvas Zumeo MS48 Choco Bear</p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
@@ -360,7 +431,7 @@
                             style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20240804_XpXUvygNTO.jpeg);">
                         </div>
                         <h4 class="item_price">100.000đ</h4>
-                        <h6 class="item_desc"> Gấu bông handmade Zumeo - Tili Củ Cải</h6>
+                        <p class="item_desc"> Gấu bông handmade Zumeo - Tili Củ Cải</p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
@@ -369,7 +440,7 @@
                             style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20241006_jKSKs25hDE.jpeg);">
                         </div>
                         <h4 class="item_price">125.000đ</h4>
-                        <h6 class="item_desc"> Gấu bông handmade Zumeo - Tili Sâu Deep</h6>
+                        <p class="item_desc"> Gấu bông handmade Zumeo - Tili Sâu Deep</p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
@@ -378,52 +449,52 @@
                             style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20241019_krzPAg2Z14.jpeg);">
                         </div>
                         <h4 class="item_price">120.000đ</h4>
-                        <h6 class="item_desc"> Gấu bông Zumeo Tili Củ Cải - Halloween Limited Edition</h6>
+                        <p class="item_desc"> Gấu bông Zumeo Tili Củ Cải - Halloween Limited Edition</p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
                     <a class="item" href="#">
                         <div class="item_img"
-                            style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20220504_7R2qKLfqAxn65LuQOouIju6s.jpg);">
+                            style="background-image: url(/img/sove_giayve/4\ Sổ\ vẽ\ Canson\ XL\ Aquarelle.jpg);">
                         </div>
                         <h4 class="item_price">55.000đ</h4>
-                        <h6 class="item_desc"> Sổ lưu trữ Washi Sticker</h6>
+                        <p class="item_desc"> Sổ lưu trữ Washi Sticker</p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
                     <a class="item" href="#">
                         <div class="item_img"
-                            style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20210402_SAVFs4N1c8c5MK8O5fsitiKf.jpg);">
+                            style="background-image: url(/img/sove_giayve/9\ Sổ\ vẽ\ Nabii\ Aqua\ Fat.png);">
                         </div>
                         <h4 class="item_price">40.000đ</h4>
-                        <h6 class="item_desc"> Combo 10 cuộn Washi Sweet Dream Tông Pastel</h6>
+                        <p class="item_desc"> Combo 10 cuộn Washi Sweet Dream Tông Pastel</p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
                     <a class="item" href="#">
                         <div class="item_img"
-                            style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20200822_Jg8JdPwyCCY4B3e7wsgoOm9q.jpg);">
+                            style="background-image: url(/img/dungcu/5\ Khay\ pha\ màu\ Deli\ \(6\).png);">
                         </div>
                         <h4 class="item_price">75.000đ</h4>
-                        <h6 class="item_desc"> Xô rửa cọ đa năng 3 ngăn lớn</h6>
+                        <p class="item_desc"> Xô rửa cọ đa năng 3 ngăn lớn</p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3  col-4   product-item" href="#">
                     <a class="item" href="#">
                         <div class="item_img"
-                            style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20230614_xPScFaUZKL.jpeg);">
+                            style="background-image: url(/img/mauposter/3\ Màu\ Gouache\ HIMI\ Nhũ\ Metallic\ \(4\).jpg);">
                         </div>
                         <h4 class="item_price">50.000đ</h4>
-                        <h6 class="item_desc"> Cát thạch anh tạo hiệu ứng tranh acrylic đắp nổi cao cấp</h6>
+                        <p class="item_desc"> Cát thạch anh tạo hiệu ứng tranh acrylic đắp nổi cao cấp</p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
                     <a class="item" href="#">
                         <div class="item_img"
-                            style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20220504_Bv0DoTbbynWrpMjdIMLFTYZn.jpg);">
+                            style="background-image: url(/img/dungcu/5\ Khay\ pha\ màu\ Deli\ \(7\).png);">
                         </div>
                         <h4 class="item_price">12.000đ</h4>
-                        <h6 class="item_desc"> Khay pha màu nhựa(nhiều mẫu)</h6>
+                        <p class="item_desc"> Khay pha màu nhựa(nhiều mẫu)</p>
                     </a>
                 </div>
 
@@ -438,11 +509,11 @@
 
         <!-- Block 4 MÀU VẼ -->
 
-        <div class="container container-block3">
+        <div class="container container-block3 hide">
             <!--  -->
             <div class="row align-items-center ">
                 <div class="col-xl-10  col-lg-10 col-8">
-                    <h2 class="letter" style="font-weight: bold;">MÀU VẼ</h2>
+                    <h3 class="letter" style="font-weight: bold;">MÀU VẼ</h3>
                 </div>
                 <div class="col-xl-2  col-lg-2  col-4 text-end">
                     <a class="block3-link3 " href="#">
@@ -457,109 +528,109 @@
                 <div class="col-xl-2 col-lg-3 col-4  product-item" href="#">
                     <a class="item" href="#">
                         <div class="item_img"
-                            style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20241014_NQSu8QihsT.jpeg);">
+                            style="background-image: url(/img/mauchi/1\ Chì\ màu\ Faber\ Castell\ Polychromos.webp);">
                         </div>
-                        <h4 class="item_price">110.000đ</h4>
-                        <h6 class="item_desc"> Chì khô Faber Castell - Black Edition</h6>
+                        <h4 class="item_price">120.000đ</h4>
+                        <p class="item_desc"> Chì màu Faber Castell Polychromos</p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3 col-4 product-item" href="#">
                     <a class="item" href="#">
                         <div class="item_img"
-                            style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20210622_ezb7mGlMCXHCCnxOsihORz8Q.jpg);">
+                            style="background-image: url(/img/mauchi/2\ Chì\ màu\ Faber-Castel\ Pitt\ Pastell.png);">
                         </div>
-                        <h4 class="item_price">280.000đ</h4>
-                        <h6 class="item_desc"> Màu nước Phoenix Artist Grade Watercolor</h6>
+                        <h4 class="item_price">180.000đ</h4>
+                        <p class="item_desc"> Chì màu Faber-Castel Pitt Pastell </p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
                     <a class="item" href="#">
                         <div class="item_img"
-                            style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20241003_AnCjKcssCj.jpeg);">
+                            style="background-image: url(/img/mauchi/3\ Chì\ màu\ Premier\ Marco\ Renior.jpg);">
                         </div>
-                        <h4 class="item_price">400.000đ</h4>
-                        <h6 class="item_desc"> Màu chì khô Lobeo Art 72 màu kèm túi vải</h6>
+                        <h4 class="item_price">240.000đ</h4>
+                        <p class="item_desc"> Chì màu Premier Marco Renior</p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
                     <a class="item" href="#">
                         <div class="item_img"
-                            style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20231014_JxRnXAcCBw.jpeg);">
+                            style="background-image: url(/img/mauchi/4\ Chì\ nước\ cao\ cấp\ Staedtler\ Karat.jpg);">
                         </div>
-                        <h4 class="item_price">60.000đ</h4>
-                        <h6 class="item_desc"> Màu nước chiết Phoenix</h6>
+                        <h4 class="item_price">160.000đ</h4>
+                        <p class="item_desc"> Chì nước cao cấp Staedtler Karat </p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
                     <a class="item" href="#">
                         <div class="item_img"
-                            style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20230125_mj7682vHkJ7AAX2O.jpg);">
+                            style="background-image: url(/img/maunuoc/12\ Màu\ nước\ Sonnet\ -\ Plein\ Air\ Set\ \ \(1\).png);">
                         </div>
-                        <h4 class="item_price">50.000đ</h4>
-                        <h6 class="item_desc"> Màu sáp dầu, phấn dầu cá voi</h6>
+                        <h4 class="item_price">150.000đ</h4>
+                        <p class="item_desc"> Màu nước Sonnet - Plein Air Set </p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
                     <a class="item" href="#">
                         <div class="item_img"
-                            style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20210406_lZClsvNCuYmess6AxAG7JVxE.jpg);">
+                            style="background-image: url(/img/maunuoc/Gansai\ Tambi\ 12.jpg);">
                         </div>
-                        <h4 class="item_price">13.000đ</h4>
-                        <h6 class="item_desc"> Màu gouache Marie's 100ml</h6>
+                        <h4 class="item_price">130.000đ</h4>
+                        <p class="item_desc"> Gansai Tambi 12</p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
                     <a class="item" href="#">
                         <div class="item_img"
-                            style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20200707_FZYCi3mNg0t44WbmkMeLTvHM.jpeg);">
+                            style="background-image: url(/img/maunuoc/Holbein.png);">
                         </div>
-                        <h4 class="item_price">20.000đ</h4>
-                        <h6 class="item_desc"> Acrylic Marie's 100ml</h6>
+                        <h4 class="item_price">200.000đ</h4>
+                        <p class="item_desc"> Holbein 24</p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
                     <a class="item" href="#">
                         <div class="item_img"
-                            style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20230615_yeo875iDTM.jpeg);">
+                            style="background-image: url(/img/maunuoc/Leningrad.png);">
                         </div>
-                        <h4 class="item_price">22.000đ</h4>
-                        <h6 class="item_desc"> Màu sơn dàu Marie dạng tuýp 50ml</h6>
+                        <h4 class="item_price">120.000đ</h4>
+                        <p class="item_desc"> Leningrad</p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
                     <a class="item" href="#">
                         <div class="item_img"
-                            style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20220622_d7iHOlOMLo0bO8Cy6L1YBw5A.JPG);">
+                            style="background-image: url(/img/mauposter/1\ Màu\ Gouache\ Holbein\ \(1\).jpg);">
                         </div>
                         <h4 class="item_price">140.000đ</h4>
-                        <h6 class="item_desc"> Bộ màu vẽ vải Fabric Mont Marte 20ml</h6>
+                        <p class="item_desc">Màu Gouache Holbein </p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
                     <a class="item" href="#">
                         <div class="item_img"
-                            style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20240923_vZiZf2gLOw.jpeg);">
+                            style="background-image: url(/img/mauposter/2\ Màu\ Gouache\ Marie_s\ \(2\).jpg);">
                         </div>
-                        <h4 class="item_price">8.000đ</h4>
-                        <h6 class="item_desc"> Màu dạ Touchcool</h6>
+                        <h4 class="item_price">80.000đ</h4>
+                        <p class="item_desc"> Màu Gouache Marie_s </p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3  col-4   product-item" href="#">
                     <a class="item" href="#">
                         <div class="item_img"
-                            style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20220622_d7iHOlOMLo0bO8Cy6L1YBw5A.JPG);">
+                            style="background-image: url(/img/mauposter/3\ Màu\ Gouache\ HIMI\ Nhũ\ Metallic\ \(1\).jpg);">
                         </div>
                         <h4 class="item_price">150.000đ</h4>
-                        <h6 class="item_desc"> Bộ màu vẽ vải Fabric Mont Marte 40ml</h6>
+                        <p class="item_desc"> Màu Gouache HIMI Dạ Quang  </p>
                     </a>
                 </div>
                 <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
                     <a class="item" href="#">
                         <div class="item_img"
-                            style="background-image: url(https://pos.nvncdn.com/6dc534-15668/ps/20200719_2K7bqif6UyB35wbiqUN3dDrS.jpeg);">
+                            style="background-image: url(/img/mauposter/4\ Màu\ Gouache\ HIMI\ Dạ\ Quang\ \(1\).jpg);">
                         </div>
-                        <h4 class="item_price">55.000đ</h4>
-                        <h6 class="item_desc"> Màu Acrylic Marie's 300ml</h6>
+                        <h4 class="item_price">145.000đ</h4>
+                        <p class="item_desc"> Màu Gouache HIMI Dạ Quang  </p>
                     </a>
                 </div>
 
@@ -576,6 +647,137 @@
 
         <!-- BLOCK 5 SỔ VẼ , GIẤY VẼ-->
 
+        <div class="container container-block3 hide">
+            <!--  -->
+            <div class="row align-items-center ">
+                <div class="col-xl-10  col-lg-10 col-8">
+                    <h3 class="letter" style="font-weight: bold;">SỔ VẼ, GIẤY VẼ</h3>
+                </div>
+                <div class="col-xl-2  col-lg-2  col-4 text-end">
+                    <a class="block3-link3 " href="#">
+                        Xem thêm
+                        <i class="fa-solid fa-circle-play"></i>
+                    </a>
+
+                </div>
+            </div>
+            <!--  -->
+            <div class="row product">
+                <div class="col-xl-2 col-lg-3 col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/sove_giayve/1\ Sổ\ vẽ\ Canson\ 1557.png);">
+                        </div>
+                        <h4 class="item_price">100.000đ</h4>
+                        <p class="item_desc"> Sổ vẽ Canson 1557</p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-4 product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/sove_giayve/2\ Sổ\ vẽ\ Canson\ Barbizon.png);">
+                        </div>
+                        <h4 class="item_price">180.000đ</h4>
+                        <p class="item_desc"> Sổ vẽ Canson Barbizon</p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/sove_giayve/3\ Sổ\ vẽ\ Canson\ XL\ Dessin.png);">
+                        </div>
+                        <h4 class="item_price">300.000đ</h4>
+                        <p class="item_desc">Sổ vẽ Canson XL Dessin</p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/sove_giayve/4\ Sổ\ vẽ\ Canson\ XL\ Aquarelle.jpg);">
+                        </div>
+                        <h4 class="item_price">60.000đ</h4>
+                        <p class="item_desc"> Sổ vẽ Canson XL Aquarelle</p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/sove_giayve/5\ Sổ\ vẽ\ Canson\ XL\ Croquis.png);">
+                        </div>
+                        <h4 class="item_price">50.000đ</h4>
+                        <p class="item_desc"> Sổ vẽ Canson XL Aquarelle</p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/sove_giayve/6\ Sổ\ vẽ\ màu\ nước\ Canson\ Imagine.png);">
+                        </div>
+                        <h4 class="item_price">130.000đ</h4>
+                        <p class="item_desc"> Sổ vẽ màu nước Canson Imagine</p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/sove_giayve/7\ Sổ\ vẽ\ Canson\ Montval.png);">
+                        </div>
+                        <h4 class="item_price">120.000đ</h4>
+                        <p class="item_desc"> Sổ vẽ Canson Montval</p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/sove_giayve/8\ Sổ\ vẽ\ Faber\ Castell.png);">
+                        </div>
+                        <h4 class="item_price">222.000đ</h4>
+                        <p class="item_desc"> Sổ vẽ Canson Montval</p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/sove_giayve/9\ Sổ\ vẽ\ Nabii\ Aqua\ Fat.png);">
+                        </div>
+                        <h4 class="item_price">140.000đ</h4>
+                        <p class="item_desc"> Sổ vẽ Canson Montval</p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/sove_giayve/10\ Giấy\ vẽ\ Nabii\ Aqua\ Fat.jpg);">
+                        </div>
+                        <h4 class="item_price">80.000đ</h4>
+                        <p class="item_desc"> Giấy vẽ Nabii Aqua Fat</p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4   product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/sove_giayve/11\ Nabii\ -\ Ima\ Sketchbook.png);">
+                        </div>
+                        <h4 class="item_price">150.000đ</h4>
+                        <p class="item_desc"> Nabii - Ima Sketchbook</p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/sove_giayve/12\ Giấy\ vẽ\ Nabii\ Aqua\ Fat\ -\ Newbie\ Set.png);">
+                        </div>
+                        <h4 class="item_price">155.000đ</h4>
+                        <p class="item_desc"> 12 Giấy vẽ Nabii Aqua Fat - Newbie Set</p>
+                    </a>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
 
         <!-- END BLOCK 5   -->
 
@@ -583,7 +785,137 @@
 
         <!-- BLOCK 6 BÚT VẼ CỌ VẼ-->
 
+        <div class="container container-block3 hide">
+            <!--  -->
+            <div class="row align-items-center ">
+                <div class="col-xl-10  col-lg-10 col-8">
+                    <h3 class="letter" style="font-weight: bold;">BÚT VẼ, CỌ VẼ</h3>
+                </div>
+                <div class="col-xl-2  col-lg-2  col-4 text-end">
+                    <a class="block3-link3 " href="#">
+                        Xem thêm
+                        <i class="fa-solid fa-circle-play"></i>
+                    </a>
 
+                </div>
+            </div>
+            <!--  -->
+            <div class="row product">
+                <div class="col-xl-2 col-lg-3 col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/but_chi/1\ Bút\ chì\ Staedtler\ Mars\ Lumograph\ \ \(1\).png);">
+                        </div>
+                        <h4 class="item_price">140.000đ</h4>
+                        <p class="item_desc">  Bút chì Staedtler Mars Lumograph  </p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-4 product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/but_chi/2\ Bộ\ bút\ chì\ vẽ\ kỹ\ thuật\ cao\ cấp\ Staedtler\ Mars\ Lumograph\ \(2\).png);">
+                        </div>
+                        <h4 class="item_price">280.000đ</h4>
+                        <p class="item_desc"> Bộ bút chì vẽ kỹ thuật cao cấp Staedtler Mars Lumograph </p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/but_chi/3\ Bút\ chì\ Staedtler\ Mars\ Lumograph\ Black\ 100B\ \(1\).png);">
+                        </div>
+                        <h4 class="item_price">140.000đ</h4>
+                        <p class="item_desc">  Bút chì Staedtler Mars Lumograph Black 100B </p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/but_chi/4\ Hộp\ thiếc\ bộ\ 6\ bút\ chì\ Staedtler\ Mars\ Lumograph\ Black\ \(1\).png);">
+                        </div>
+                        <h4 class="item_price">150.000đ</h4>
+                        <p class="item_desc">  Hộp thiếc bộ 6 bút chì Staedtler Mars Lumograph Black </p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/but_ve/1\ Bút\ line\ đi\ nét\ SAKURA\ Micron\ Pigma\ Manga\ \(1\).png);">
+                        </div>
+                        <h4 class="item_price">50.000đ</h4>
+                        <p class="item_desc"> Bút line đi nét SAKURA Micron Pigma Manga  </p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/but_ve/2\ Bút\ line\ màu\ đi\ nét\ SAKURA\ Micron\ Pigma\ Manga\ \(1\).png);">
+                        </div>
+                        <h4 class="item_price">140.000đ</h4>
+                        <p class="item_desc">  Bút line màu đi nét SAKURA Micron Pigma Manga </p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/but_ve/3\ Bút\ gel\ trắng\ Sakura\ Gelly\ Roll\ \(2\).png);">
+                        </div>
+                        <h4 class="item_price">200.000đ</h4>
+                        <p class="item_desc">  Bút gel trắng Sakura Gelly Roll </p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/but_ve/4\ Bút\ gel\ Uni\ ball\ Signo\ Broad\ \(2\).png);">
+                        </div>
+                        <h4 class="item_price">220.000đ</h4>
+                        <p class="item_desc">  Bút gel Uni ball Signo Broad </p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/co_ve/1\ Cọ\ mop\ Holic\ Snow.jpeg);">
+                        </div>
+                        <h4 class="item_price">240.000đ</h4>
+                        <p class="item_desc">Cọ mop Holic Snow</p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/co_ve/2\ Cọ\ vẽ\ thư\ pháp\ chu\ tước\ lông\ thỏ.jpg);">
+                        </div>
+                        <h4 class="item_price">180.000đ</h4>
+                        <p class="item_desc"> Cọ vẽ thư pháp chu tước lông thỏ </p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4   product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/co_ve/3\ Cọ\ mop\ lông\ cừu\ Aishake.jpg);">
+                        </div>
+                        <h4 class="item_price">150.000đ</h4>
+                        <p class="item_desc">Cọ mop lông cừu Aishake  </p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/co_ve/4\ Bộ\ 6\ cọ\ acrylic\ Aishake\ đầu\ vuông\ màu\ bạc.png);">
+                        </div>
+                        <h4 class="item_price">150.000đ</h4>
+                        <p class="item_desc">Bộ 6 cọ acrylic Aishake đầu vuông màu bạc  </p>
+                    </a>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
 
 
         <!-- END BLOCK 6   -->
@@ -591,7 +923,84 @@
         <!-- BLOCK 7 DỤNG CỤ HỖ TRỢ-->
 
 
+        <div class="container container-block3 ">
+            <!--  -->
+            <div class="row align-items-center ">
+                <div class="col-xl-10  col-lg-10 col-8">
+                    <h3 class="letter" style="font-weight: bold;">DỤNG CỤ HỖ TRỢ</h3>
+                </div>
+                <div class="col-xl-2  col-lg-2  col-4 text-end">
+                    <a class="block3-link3 " href="#">
+                        Xem thêm
+                        <i class="fa-solid fa-circle-play"></i>
+                    </a>
 
+                </div>
+            </div>
+            <!--  -->
+            <div class="row product">
+                <div class="col-xl-2 col-lg-3 col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/dungcu/1\ Băng\ dính\ giấy\ \ \(1\).png);">
+                        </div>
+                        <h4 class="item_price">40.000đ</h4>
+                        <p class="item_desc">  Băng dính giấy   </p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-4 product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/dungcu/2\ Tẩy\ đất\ sét\ \(2\).png);">
+                        </div>
+                        <h4 class="item_price">80.000đ</h4>
+                        <p class="item_desc">  Tẩy đất sét </p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/dungcu/3\ Bút\ keo\ chặn\ màu\ Giorgione\ \(2\).png);">
+                        </div>
+                        <h4 class="item_price">40.000đ</h4>
+                        <p class="item_desc">  Bút keo chặn màu Giorgione </p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/dungcu/4\ Xịt\ bảo\ quản\ tranh\ Kuelox.png);">
+                        </div>
+                        <h4 class="item_price">50.000đ</h4>
+                        <p class="item_desc">  Xịt bảo quản tranh Kuelox </p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/dungcu/5\ Khay\ pha\ màu\ Deli\ \(1\).png);">
+                        </div>
+                        <h4 class="item_price">50.000đ</h4>
+                        <p class="item_desc"> Khay pha màu Deli  </p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-lg-3  col-4  product-item" href="#">
+                    <a class="item" href="#">
+                        <div class="item_img"
+                            style="background-image: url(/img/dungcu/5\ Khay\ pha\ màu\ Deli\ \(6\).png);">
+                        </div>
+                        <h4 class="item_price">40.000đ</h4>
+                        <p class="item_desc">  5 Khay pha màu Deli </p>
+                    </a>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
 
         <!-- END BLOCK 7   -->
 
